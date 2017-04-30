@@ -1,0 +1,20 @@
+## by Denzel Code
+---
+name: JoinItems
+main: JoinItems\Main
+author: Denzel Code
+version: 1.0.0
+api: [1.0.0, 2.0.0, 3.0.0]
+commands:
+    ji:
+        description: Join Items command.
+    joinitems:
+        description: Join Items command.
+permissions:
+    joinitems.perm:
+        default: op
+        description: JoinItems Permission. 
+    joinitems.allowplace:
+        default: op
+        description: JoinItems AllowPlace Permission. 
+...

@@ -1,0 +1,45 @@
+{
+    "defaultConfig": {
+        "onJoin": true,
+        "onRespawn": true
+    },
+    "items": {
+        "skywars": {
+            "item": 151,
+            "title": "&l&fSky&cWars&r\nClick para jugar en SkyWars.",
+            "command": "warp skywars",
+            "slot": 0,
+            "sound": false,
+            "enchantment": 34,
+            "joinSpawnShow": true
+        },
+        "lucky": {
+            "item": 147,
+            "title": "&l&aLucky&eIsland&r\nClick para jugar en LuckyIsland.",
+            "command": "warp luckywars",
+            "slot": 1,
+            "sound": false,
+            "enchantment": 34,
+            "joinSpawnShow": true
+        },
+        "1vs1": {
+            "item": 148,
+            "title": "&l&c1&fvs&c1&r\nClick para jugar en 1VS1.",
+            "command": "warp luckywars",
+            "slot": 2,
+            "sound": false,
+            "enchantment": 34,
+            "joinSpawnShow": true
+        },
+        "lobby": {
+            "item": 152,
+            "title": "&l&bLobby&r\nClick para ir al lobby.",
+            "command": "lobby",
+            "slot": 8,
+            "sound": false,
+            "enchantment": 34,
+            "joinSpawnShow": true
+        }
+    },
+    "allowedPlayersPlace": []
+}
