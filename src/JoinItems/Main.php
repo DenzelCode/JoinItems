@@ -57,7 +57,7 @@
             $this->prefix = Color::GRAY . '[' . Color::BLUE . 'Join' . Color::RED . 'Items' . Color::GRAY . ']' . Color::RESET . ' ';
             $this->principalCommand = 'joinitems';
             $this->shortCommand = 'ji';
-            $this->config = new Config($this->getDataFolder() . 'config.json', Config::JSON);
+            $this->config = new Config($this->getDataFolder() . 'config.yml', Config::YAML);
             $this->config->save();
             $this->allowPlace = $this->config->get('allowedPlayersPlace');
             if ($this->allowPlace == null) {
